@@ -1,3 +1,13 @@
+
+# Modified Neural editor to run on SLURM clusters (such as NYU HPC's Prince Cluster)
+How to run on slurm cluster
+  1) first make sure to set the `HOME` variable in both `setup_datadir.sh` and `train_slurm.s`.  
+  2) to get the data run `./setup_datadir.sh`  
+  3) to submit a batch job for training run `sbatch train_slurm.s`   (you can change the config in this file)  
+
+# below from original github
+[https://github.com/kelvinguu/neural-editor](https://github.com/kelvinguu/neural-editor)
+
 # Neural editor
 
 Source code accompanying our paper [Generating Sentences by Editing Prototypes](https://arxiv.org/abs/1709.08878).

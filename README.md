@@ -5,6 +5,11 @@ How to run on slurm cluster
   2) to get the data run `./setup_datadir.sh`  
   3) to submit a batch job for training run `sbatch train_slurm.s`   (you can change the config in this file)  
 
+How to use Jupyter Notebook to examine your trained model  
+  1) edit `run-jupyterGPU.sbatch` to reflect your path
+  1) run `sbatch run-jupyterGPU.sbatch`
+
+
 # below from original github
 [https://github.com/kelvinguu/neural-editor](https://github.com/kelvinguu/neural-editor)
 
